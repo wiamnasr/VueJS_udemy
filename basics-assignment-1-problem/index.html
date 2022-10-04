@@ -39,7 +39,10 @@
         <img v-bind:src="imgUrl" />
       </div>
       <!-- 6) Prepopulate the input field with your name via the "value" attribute -->
-      <input type="text" />
+      <input
+        v-bind:value="name"
+        type="text"
+      />
     </section>
   </body>
 </html>
